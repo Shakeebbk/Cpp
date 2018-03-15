@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1804AE8C2059FC61000A75D0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1804AE8B2059FC61000A75D0 /* main.cpp */; };
+		1804AE9A2059FCF0000A75D0 /* binary_search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1804AE922059FCF0000A75D0 /* binary_search.cpp */; };
+		1804AE9B2059FCF0000A75D0 /* merge_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1804AE942059FCF0000A75D0 /* merge_sort.cpp */; };
+		1804AE9C2059FCF0000A75D0 /* stl_vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1804AE952059FCF0000A75D0 /* stl_vector.cpp */; };
+		1804AE9D2059FCF0000A75D0 /* reverse_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1804AE962059FCF0000A75D0 /* reverse_string.cpp */; };
+		1804AE9E2059FCF0000A75D0 /* selection_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1804AE972059FCF0000A75D0 /* selection_sort.cpp */; };
+		1804AE9F2059FCF0000A75D0 /* reverse_linked_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1804AE982059FCF0000A75D0 /* reverse_linked_list.cpp */; };
+		1804AEA02059FCF0000A75D0 /* bubble_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1804AE992059FCF0000A75D0 /* bubble_sort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,14 @@
 /* Begin PBXFileReference section */
 		1804AE882059FC61000A75D0 /* coding-ground-cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "coding-ground-cpp"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1804AE8B2059FC61000A75D0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1804AE922059FCF0000A75D0 /* binary_search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = binary_search.cpp; sourceTree = "<group>"; };
+		1804AE932059FCF0000A75D0 /* binary_search.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = binary_search.hpp; sourceTree = "<group>"; };
+		1804AE942059FCF0000A75D0 /* merge_sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = merge_sort.cpp; sourceTree = "<group>"; };
+		1804AE952059FCF0000A75D0 /* stl_vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stl_vector.cpp; sourceTree = "<group>"; };
+		1804AE962059FCF0000A75D0 /* reverse_string.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reverse_string.cpp; sourceTree = "<group>"; };
+		1804AE972059FCF0000A75D0 /* selection_sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = selection_sort.cpp; sourceTree = "<group>"; };
+		1804AE982059FCF0000A75D0 /* reverse_linked_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reverse_linked_list.cpp; sourceTree = "<group>"; };
+		1804AE992059FCF0000A75D0 /* bubble_sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bubble_sort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +72,14 @@
 		1804AE8A2059FC61000A75D0 /* coding-ground-cpp */ = {
 			isa = PBXGroup;
 			children = (
+				1804AE922059FCF0000A75D0 /* binary_search.cpp */,
+				1804AE932059FCF0000A75D0 /* binary_search.hpp */,
+				1804AE992059FCF0000A75D0 /* bubble_sort.cpp */,
+				1804AE942059FCF0000A75D0 /* merge_sort.cpp */,
+				1804AE982059FCF0000A75D0 /* reverse_linked_list.cpp */,
+				1804AE962059FCF0000A75D0 /* reverse_string.cpp */,
+				1804AE972059FCF0000A75D0 /* selection_sort.cpp */,
+				1804AE952059FCF0000A75D0 /* stl_vector.cpp */,
 				1804AE8B2059FC61000A75D0 /* main.cpp */,
 			);
 			path = "coding-ground-cpp";
@@ -119,6 +142,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1804AE9F2059FCF0000A75D0 /* reverse_linked_list.cpp in Sources */,
+				1804AE9E2059FCF0000A75D0 /* selection_sort.cpp in Sources */,
+				1804AE9C2059FCF0000A75D0 /* stl_vector.cpp in Sources */,
+				1804AEA02059FCF0000A75D0 /* bubble_sort.cpp in Sources */,
+				1804AE9A2059FCF0000A75D0 /* binary_search.cpp in Sources */,
+				1804AE9D2059FCF0000A75D0 /* reverse_string.cpp in Sources */,
+				1804AE9B2059FCF0000A75D0 /* merge_sort.cpp in Sources */,
 				1804AE8C2059FC61000A75D0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
